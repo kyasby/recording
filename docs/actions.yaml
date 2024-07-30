@@ -1,0 +1,6 @@
+ # .envファイルの作成
+ - name: create .env
+   run: |
+      touch env
+      echo url=${{secrets.URL}} >> env
+      echo annoKey=${{secrets.ANONKEY}} >> env
