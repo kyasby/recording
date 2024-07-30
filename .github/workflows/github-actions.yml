@@ -31,3 +31,4 @@ jobs:
           touch docs/assets/assets/env
           echo url=${{secrets.URL}} >> docs/assets/assets/env
           echo annoKey=${{secrets.ANONKEY}} >> docs/assets/assets/env
+      - run: ls
