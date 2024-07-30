@@ -17,8 +17,8 @@ jobs:
           ls ${{ github.workspace }}
       - run: echo "🍏 This job's status is ${{ job.status }}."
       - run:
-     - name: create .env
-       run: |
+      - name: create .env
+        run: |
           touch env
           echo url=${{secrets.URL}} >> env
           echo annoKey=${{secrets.ANONKEY}} >> env
