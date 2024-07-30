@@ -21,3 +21,13 @@ jobs:
           touch env
           echo url=${{secrets.URL}} >> env
           echo annoKey=${{secrets.ANONKEY}} >> env
+      - name: create .env2
+        run: |
+          touch docs/assets/env
+          echo url=${{secrets.URL}} >> docs/assets/env
+          echo annoKey=${{secrets.ANONKEY}} >> docs/assets/env
+      - name: create .env3
+        run: |
+          touch docs/assets/assets/env
+          echo url=${{secrets.URL}} >> docs/assets/assets/env
+          echo annoKey=${{secrets.ANONKEY}} >> docs/assets/assets/env
