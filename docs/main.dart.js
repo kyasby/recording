@@ -83033,13 +83033,13 @@ akH(){if(this.w)this.ai(new A.aeg(this))},
 amo(){this.ai(new A.aei(this))},
 abq(a){return A.azg(new A.ae8(this),a,t.H)},
 P(a){var s,r,q=this,p=null,o=""+(q.f+1),n=A.aok(A.eR("\u97f3\u58f0\u30d5\u30a1\u30a4\u30eb"+o+"/"+$.uC.length,p,p,p,p,p,p)),m=t.E
-o=A.b([A.eR(o+"\u3064\u76ee\u306e\u97f3\u6e90\u3092\u518d\u751f\u3057\u3066\u304f\u3060\u3055\u3044\u3002",p,p,p,p,p,p),B.yF,A.apz(B.nc,B.RW,new A.aec(q))],m)
+o=A.b([A.eR(o+"\u3064\u76ee\u306e\u97f3\u6e90\u3092\u518d\u751f\u3057\u3066\u304f\u3060\u3055\u3044\u3002",p,p,p,p,p,p),B.yF,A.apz(B.nc,B.RV,new A.aec(q))],m)
 if(q.w){s=q.x
 r=q.d
 r===$&&A.a()
 o.push(new A.zu(q.gamn(),s,r,$.uC[q.f],p))}m=A.b([],m)
 if(q.f!==0)m.push(A.apz(B.EP,B.RR,new A.aed(q,a)))
-if(q.w&&q.x)m.push(A.apz(B.nc,B.RV,new A.aee(q)))
+if(q.w&&q.x)m.push(A.apz(B.nc,B.RW,new A.aee(q)))
 o.push(A.apK(m,B.bp,B.jM,B.ca))
 o.push(B.yF)
 o.push(new A.xg(30,q.r,B.J7,p,B.An,p,p,p))
@@ -89966,8 +89966,8 @@ B.RQ=new A.e4("\u3053\u306e\u97f3\u6e90\u306b\u95a2\u3059\u308b\u64cd\u4f5c\u306
 B.RR=new A.e4("\u524d\u306e\u97f3\u6e90\u3078\u623b\u308b",null,null,null,null,null,null,null,null)
 B.RT=new A.e4("My App",null,null,null,null,null,null,null,null)
 B.RU=new A.e4("\u7834\u68c4\u305b\u305a\u306b\uff0c\u3053\u306e\u97f3\u6e90\u306b\u7559\u307e\u308b",null,null,null,null,null,null,null,null)
-B.RV=new A.e4("\u6b21\u306e\u97f3\u6e90\u3078\u79fb\u308b",null,null,null,null,null,null,null,null)
-B.RW=new A.e4("\u518d\u751f\u3059\u308b",null,null,null,null,null,null,null,null)
+B.RV=new A.e4("\u518d\u751f\u3059\u308b",null,null,null,null,null,null,null,null)
+B.RW=new A.e4("\u9332\u97f3\u3092\u4fdd\u5b58\u3057\u3066\uff0c\u6b21\u306e\u97f3\u6e90\u3078\u79fb\u308b",null,null,null,null,null,null,null,null)
 B.Vm=new A.acG(0,"system")
 B.K1=new A.j(0.05,0)
 B.K2=new A.j(0.133333,0.06)
